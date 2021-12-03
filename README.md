@@ -1,2 +1,3 @@
-# MGFotografia
-Created with CodeSandbox
+# An example of the Netflix slider
+
+![preview](netflix-slider.png)
