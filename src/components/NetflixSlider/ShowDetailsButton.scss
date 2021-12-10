@@ -3,8 +3,9 @@
   bottom: 0;
   left: 0;
   right: 0;
+  top:0;
   opacity: 0;
-  transition: opacity 300ms ease 100ms;
+  transition: opacity 500ms ease 100ms;
   background: transparent;
   border: 0;
   outline: none;
@@ -12,8 +13,13 @@
 
   span {
     display: block;
-    width: 14px;
-    margin: 0 auto;
+    width: 20px;
+    margin: 100% auto 0;
     color: white;
+    background-color: #f8a203;
+    padding: 0 10px;
+    max-height: 32px;
+    border-radius: 10%;
+    opacity: .5;
   }
 }

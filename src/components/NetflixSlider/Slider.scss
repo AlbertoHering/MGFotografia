@@ -6,24 +6,30 @@
   &__container {
     display: flex;
     padding: 0 55px;
-    transition: transform 300ms ease 100ms;
+    transition: transform 500ms ease 100ms;
     z-index: 3;
     width: 100%;
   }
 
-  &:not(&--open) .item:hover .show-details-button {
+  .item:not(.item--open):hover .show-details-button {
     opacity: 1;
   }
 
-  &:not(&--open) .item:hover {
+  .item:not(.item--open):hover {
     transform: scale(1.5) !important;
+    z-index:5;
+    border: solid 4px rgb(248, 162, 3);
   }
 
-  &:not(&--open):hover .item {
+  .item:not(.item--open):hover:first-of-type {
+    left: 12px;
+  }
+
+  &:not(&--open):hover .item:not(.item--open) {
     transform: translateX(-25%);
   }
 
-  &:not(&--open) .item:hover ~ .item {
+  .item:not(.item--open):hover ~ .item {
     transform: translateX(25%);
   }
 }

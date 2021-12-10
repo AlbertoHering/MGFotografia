@@ -2,6 +2,9 @@
   position: relative;
   height: 37vw;
   margin-top: -40px;
+  transition: transform 1s;
+  z-index:1;
+
 
   &__background,
   &__background__shadow,
@@ -39,7 +42,7 @@
       width: 70%;
       height: 100%;
       background-position: center 10%;
-      background-size: cover;
+      background-size:cover;
       z-index: 1;
     }
   }
@@ -59,6 +62,12 @@
   &__title {
     font-size: 45px;
     color: #fff;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    font-size: 25px;
+    color: rgb(248, 162, 3);
     font-weight: 700;
   }
 

@@ -1,12 +1,13 @@
 .item {
-  flex: 0 0 19.7%;
-  transition: transform 300ms ease 100ms;
-  margin: 0 2px;
+  flex: 0 0 20%;/** 0 0 19.7%;*/
+  transition: transform 500ms ease 100ms;
+  margin: 0 1px;
   position: relative;
 
   img {
     height: 100%;
     width: 100%;
     vertical-align: top;
+    display: inline-block;
   }
 }
